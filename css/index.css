@@ -1,0 +1,86 @@
+*{
+				box-sizing: border-box;
+}
+:root{
+				--blue: #5FA0FE;
+}
+
+header, 
+header nav ul li{
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+}
+header > a{
+				color: #fff;
+				font-size: 1.2rem;
+}
+header a {
+				text-decoration: none;
+}
+header nav ul{
+				display: flex;
+				list-style: none;
+				
+}
+header nav ul li a {
+				color: #fff;
+}
+.btn{
+				background-color: transparent;
+				padding: .3rem .5rem;
+				border: 1px solid transparent;
+				transition: all 600ms linear;
+}
+.btn-login{
+				border-color: #fff;
+}
+.btn-register{
+				background-color: var(--blue);
+}
+.btn-register:hover{
+				background-color: transparent;
+				border-color: var(--blue);
+}
+#home{
+				background-color: #273343;
+				padding: 0 5% 2rem 5%;
+			 height: 100vh;
+			 
+}
+.hero{
+				display: flex;
+				align-items: center;
+				
+}
+.hero .container{
+				display: flex;
+}
+.hero .row{
+								
+}
+.hero .row:first-child{
+				width: 40%;
+				
+}
+.hero .row:first-child h2{
+				font-size: 3rem;
+				color: #fff;
+}
+.hero .row:first-child > p{
+				color: #ccc;
+				font-size: 1.1rem;
+}
+.hero .row:last-child{
+width: 60%;
+				position: relative;
+				background: red;
+}
+.hero .row:last-child img{
+				position: absolute;
+				opacity: 1;
+				right: -5.55%;
+				width: 100%;
+				height: 100%;
+				border-radius: 7rem 0 2rem 2rem;
+}
