@@ -1,0 +1,174 @@
+@media (max-width: 1092px) {
+	:root {
+		--padding-section: 3rem;
+	}
+
+}
+
+@media (max-width: 951px) {
+	header nav ul li {
+		margin-right: .8rem;
+	}
+
+	.hero .row .search {
+		width: 140%;
+	}
+}
+
+@media (max-width: 869px) {
+	header nav ul li {
+		margin-right: .65rem;
+		font-size: .9rem;
+	}
+}
+
+@media (max-width: 810px) {
+	header {
+		position: relative;
+		height: 4rem;
+	}
+
+	header nav {
+		position: absolute;
+		top: -100vh;
+		right: calc(0px - var(--padding-section));
+		background: var(--gray);
+		width: 70vw;
+		height: 100vh;
+		z-index: 100;
+
+	}
+
+	.hero .row .search {
+		width: 160%;
+	}
+
+	.about .cards,
+	.other-house .cards {
+		justify-content: center;
+	}
+
+	.about .cards .card,
+	.other-house .cards .card {
+		width: calc(100% / 2 - 1rem);
+
+	}
+
+	.about .cards .card:nth-child(even),
+	.other-house .cards .card:nth-child(even) {
+		margin-right: 0;
+	}
+
+	.about .cards .card:last-child,
+	.other-house .cards .card:last-child {
+		margin-top: 1.5rem;
+	}
+}
+
+@media (max-width: 700px) {
+	.hero .row .search {
+		width: 175%;
+	}
+}
+
+@media (max-width: 630px) {
+	#home {
+		padding-bottom: 2.5rem;
+	}
+
+	.about {
+		padding-top: var(--padding-section);
+	}
+
+	.hero {
+		padding: 0;
+		flex-direction: column;
+	}
+
+	.hero .row h2 {
+		margin: 1rem 0;
+	}
+
+	.hero .row:first-child {
+		width: 100%;
+	}
+
+	.hero>.row:last-child {
+
+		display: none;
+		height: 350px;
+		margin-top: 1rem;
+	}
+
+	.hero .row .wrap-img {
+		position: static;
+		right: 0;
+		border-radius: 0 6rem 0 6rem;
+	}
+
+	.hero .row:first-child>h2 {
+		font-size: 2.4rem;
+		text-align: center;
+	}
+
+	.hero .row .search {
+		width: 100%;
+	}
+
+	.search .item span {
+		font-size: .9rem;
+	}
+
+	.search .item p {
+		font-size: .75rem;
+	}
+
+	.service {
+		flex-direction: column;
+
+	}
+
+	.service .row .title {
+		text-align: center;
+	}
+
+	#service .row {
+		width: 100%;
+
+	}
+
+	.service .row:last-child {
+		margin-top: 1.5rem;
+	}
+
+	.service .row .cards {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.service .cards .card {
+		width: calc(100% / 2 - 1rem);
+
+	}
+
+	.service .cards .card:nth-child(odd) {
+		margin-right: 1rem;
+
+	}
+
+	.service .row:last-child {
+		height: 300px;
+	}
+
+	/*
+	.hero .row:first-child{
+	position: static;
+	z-index: 2;
+	}
+	.hero .row .wrap-img{
+							width: 130%;
+							z-index: 1;
+				}
+				*/
+}
